@@ -7,10 +7,15 @@
 
 body {
     background-color: #ccc;
+    margin: 20px;
+}
+
+.super-wide {
+    width: 100%;
 }
 
 img {
-    max-width: 100%;
+    max-width: 50px;
 }
 
 /* Button */
@@ -25,7 +30,7 @@ img {
 /* End of button */
 
 .btn:hover {
-    padding: 10px 22px;
+    background-color: black;
 }
 
 /* Navigation */
@@ -67,8 +72,6 @@ nav a:hover {
     background-image: url(images/tech.jpg);
     min-height: 400px;
     background-size: cover;
-    min-height: 400px;
-    background-size: cover;
     background-position: center;
     padding: 48px;
 }
@@ -88,7 +91,7 @@ nav a:hover {
     align-items: center;
     justify-items: center;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-    padding: 20.8px;
+    padding: 60px 20px;
 }
 
 .item h3 {
