@@ -1,0 +1,170 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+
+body {
+    background-color: #ccc;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Button */
+
+.btn {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 9.6px 20.8px;
+}
+
+/* End of button */
+
+.btn:hover {
+    padding: 10px 22px;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav a {
+    background-color: #ddd;
+    margin: 20px 10px;
+    padding: 16px 80px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+    transition: 0.3s;
+}
+
+/* End of navigation */
+
+
+/* Top section */
+
+.grid-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-img .image {
+    grid-area: span 2 / span 2;
+    color: white;
+    background-image: url(images/tech.jpg);
+    min-height: 400px;
+    background-size: cover;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 48px;
+}
+
+.grid-img .image h1 {
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+.grid-img .image p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.item {
+    background-color: #ddd;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    padding: 20.8px;
+}
+
+.item h3 {
+    font-size: 40px;
+}
+
+.grid-img .meb {
+    grid-column: 3;
+}
+
+.grid-img .meb-pro {
+    grid-column: 3;
+}
+
+
+/* End of top section */
+
+/* Boxes section */
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: stretch;
+    align-items: center;
+}
+
+.box {
+    background-color: #ddd;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+/* End of boxes section */
+
+/* Wide colulm */
+
+.wide-col {
+    display: grid;
+    grid-gap: 300px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 48px;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    background-color: #ddd;
+}
+
+/* End of wide colum */
+
+/* Image section */
+
+.img-port {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.img-port img {
+    width: 100%;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    transition: 0.3s;
+}
+
+.img-port img:hover {
+    box-shadow: 3px 5px 7px rgba(104, 104, 104, 0.8);
+    transition: 0.3s;
+}
+
+/* end of image section */
+
+/* Footer */
+footer {
+    margin-top: 32px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+/* End of footer */
